@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Titulos;
-    src: url(recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format(truetype);
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf) format(truetype);
 }
 
 @font-face {
     font-family: Text;
-    src: url(recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(truetype);
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(truetype);
 }
 
 * {
