@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Titulos;
+    src: url(recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Text;
+    src: url(recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(truetype);
+}
+
+* {
+  font-family: 'Text', Arial, Helvetica, sans-serif;
+}
+
+#omelete {
+    border-radius: 10px;
+    width: 590px;
+    display: block;
+    margin: auto;
+    margin: 5px;
+    width: 100%;
+}
+
+body {
+    background-color: #F3E5D8;
+    place-content: center;
+}
+
+main {
+    font-family: 'Text', Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+#titulop {
+    font-family: 'Titulos', Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 1px;
+    margin-left: 10px; 
+}
+
+
+#resumo {
+    text-align: left;
+    font-size: 0.90em;
+    font-weight: 300;
+    color: rgb(88, 88, 88);
+    margin-left: 10px;
+}
+
+h3 {
+    color: #672241;
+    font-size: 1.3em;
+
+}
+
+#preparation {
+    background-color: #FFF7FC;
+    border-radius: 10px;
+    padding: 10px 10px 10px 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.prep {
+    margin: 15px;
+    font-weight: 300;
+    text-indent: 15px;
+    margin-left: -10px;
+
+
+}
+
+.info {
+    color: rgb(88, 88, 88);
+    font-weight: bold;
+    font-size: 0.95;
+}
+
+.subtitulo {
+    font-family: 'Titulos', Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #854D3E;
+    font-size: 2em;
+}
+
+.ingredients {
+    color: rgb(88, 88, 88);;
+    margin: 15px;
+    font-weight: 400;
+    font-size: 0.95;
+    text-indent: 20px;
+    margin-left: -15px;
+}
+
+#ingredients {
+    margin-bottom: 30px;
+}
+
+#instructions {
+    color: rgb(88, 88, 88);
+    margin-bottom: 30px;
+    font-size: 0.95em;
+    padding-left: 30px;
+    list-style-position: outside;
+}
+
+.instructions {
+    margin: 10px 0px;
+    font-size: 1em;
+    font-weight: 300;
+    padding-left: 15px;
+    margin-left: -10px;
+}
+
+#resumonutri {
+    color: rgb(88, 88, 88);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.values {
+    color: #854D3E;
+    font-weight: bolder;
+}
+
+#tabela {
+    list-style: none;
+    color: rgb(88, 88, 88);
+}
+
+.barra {
+    margin-left: -25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.attribution {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prep::marker {
+    color: #672241;
+}
+
+.ingredients::marker {
+    color: #854D3E;
+}
+
+.instructions::marker {
+    color: #854D3E;
+    font-weight: bold;
+    font-family: 'Text', Arial, Helvetica, sans-serif;
+}
+
+.categoria-nutricional {
+    color: rgb(88, 88, 88);
+}
+
+table#tabela-nutricional {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table#tabela-nutricional tbody tr:not(:last-child) {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+table#tabela-nutricional tbody tr td {
+    padding-left: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+table#tabela-nutricional tbody tr td.valor-nutricional {
+    color: #672241;
+    font-weight: bold;
+}
